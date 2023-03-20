@@ -20,6 +20,7 @@ on:
   push:
     branches:
       - master
+      - kafka-forwards
     paths:
       - 'test/e2e-v2/java-test-service/**'
       - 'test/Makefile'
